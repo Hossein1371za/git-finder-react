@@ -1,0 +1,71 @@
+.main{
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.main input,button{
+    border: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #eee;
+    box-shadow: 0px 0px 10px 0px rgba(146,232,179,1);
+    color: #8b8484;
+}
+.main button{
+    background-color: rgb(68, 255, 146);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.main button:hover{
+    background-color: rgb(0, 255, 106);
+}
+.about-user{
+    margin: 0 auto;
+    background: #baffd7;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(146,232,179,1);
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(63, 63, 66);
+    padding: 20px;
+}
+.description img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 4px solid rgb(141, 141, 227);
+}
+.description h3{
+    font-size: 25px;
+    color: #505050;
+    text-shadow: 0px 0px 10px 0px rgba(146,232,179,1);
+    margin-bottom: 20px;
+}
+.description p{
+    font-size: 18px;
+}
+.description a{
+    text-decoration: none;
+    background-color:rgb(68, 255, 146);
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #8b8484;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    margin-top: 10px;
+}
+.description a:hover{
+    background-color: rgb(0, 255, 106);
+}
